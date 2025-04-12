@@ -26,3 +26,4 @@ git clone https://github.com/krishnashukla1/netflix-react.git
 cd netflix-react
 npm install
 npm start
+website----> https://krishna-stream-app-3bd5a.web.app/
