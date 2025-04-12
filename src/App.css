@@ -1,0 +1,297 @@
+/* ===============================CSS 1====================================*/ 
+@import "tailwindcss";
+
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+
+/* body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #141414;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  margin-top: 20px;
+  font-size: 2rem;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.card {
+  background: #222;
+  border-radius: 10px;
+  overflow: hidden;
+  width: 280px;
+  padding: 15px;
+  text-align: left;
+  box-shadow: 0 4px 8px rgba(255, 0, 0, 0.5);
+  transition: transform 0.2s ease-in-out;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card img {
+  width: 100%;
+  height: 160px;
+  border-radius: 10px;
+}
+
+.card h2 {
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+.card p {
+  font-size: 14px;
+  margin: 5px 0;
+}
+
+.btn {
+  display: block;
+  width: 100%;
+  text-align: center;
+  background: red;
+  color: white;
+  text-decoration: none;
+  padding: 8px;
+  border-radius: 5px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.btn:hover {
+  background: darkred;
+} 
+  */
+
+  /* =================================CSS 2==================================*/ */
+
+
+/* 🌟 Global Styles */
+
+/* 
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #141414;
+  color: white;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-top: 20px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #ff0000;
+}
+
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 30px;
+}
+
+
+.card {
+  background: #222;
+  border-radius: 12px;
+  overflow: hidden;
+  width: 280px;
+  text-align: left;
+  box-shadow: 0 4px 8px rgba(255, 0, 0, 0.5);
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  position: relative;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(255, 0, 0, 0.7);
+}
+
+
+.card img {
+  width: 100%;
+  height: 170px;
+  object-fit: cover;
+  border-radius: 12px 12px 0 0;
+}
+
+
+.card-content {
+  padding: 15px;
+}
+
+.card h2 {
+  font-size: 18px;
+  margin: 5px 0;
+  color: #ff4444;
+  font-weight: 600;
+}
+
+.card p {
+  font-size: 14px;
+  margin: 4px 0;
+  color: #ccc;
+}
+
+
+.card p strong {
+  color: #ffcc00;
+}
+
+
+.btn {
+  display: block;
+  width: 100%;
+  text-align: center;
+  background: red;
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 5px;
+  font-weight: bold;
+  margin-top: 10px;
+  transition: background 0.3s ease-in-out;
+}
+
+.btn:hover {
+  background: darkred;
+}
+
+
+@media (max-width: 768px) {
+  .card-container {
+    flex-direction: column;
+    align-items: center;
+  }
+} 
+
+/* ================================CSS 3================================ */
+
+/* 🌟 Global Styles */
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #0f0f0f, #1a1a2e);
+  color: white;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-top: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  background: linear-gradient(45deg, #00d4ff, #00ff9d);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* 🎬 Card Container */
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+  padding: 30px;
+}
+
+/* 🎞️ Movie Card */
+.card {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border-radius: 12px;
+  width: 290px;
+  text-align: left;
+  padding-bottom: 15px;
+  box-shadow: 0 5px 15px rgba(0, 255, 255, 0.3);
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.card:hover {
+  transform: scale(1.07);
+  box-shadow: 0 8px 20px rgba(0, 255, 255, 0.6);
+}
+
+/* 🎥 Movie Poster */
+.card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 12px 12px 0 0;
+}
+
+/* 🎭 Movie Details */
+.card-content {
+  padding: 15px;
+}
+
+.card h2 {
+  font-size: 18px;
+  margin: 5px 0;
+  color: #00d4ff;
+  font-weight: 600;
+}
+
+.card p {
+  font-size: 14px;
+  margin: 4px 0;
+  color: #ddd;
+}
+
+/* ⭐ Star Rating */
+.card p strong {
+  color: #ffcc00;
+}
+
+/* 🔘 Glassmorphic Watch Now Button */
+.btn {
+  display: block;
+  width: 100%;
+  text-align: center;
+  background: rgba(0, 255, 255, 0.2);
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 5px;
+  font-weight: bold;
+  margin-top: 10px;
+  transition: background 0.3s ease-in-out, transform 0.2s;
+  backdrop-filter: blur(5px);
+  border: 1px solid rgba(0, 255, 255, 0.5);
+}
+
+.btn:hover {
+  background: rgba(0, 255, 255, 0.5);
+  transform: scale(1.05);
+}
+
+/* 📱 Responsive Design */
+@media (max-width: 768px) {
+  .card-container {
+    flex-direction: column;
+    align-items: center;
+  }
+}
